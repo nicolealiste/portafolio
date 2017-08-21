@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {    
+    background-color: $bgColor;
+    nav{
+    	font-family: $navFont;
+    	background-color: $bgColor;
+    }    
+    .nav{
+    	margin-left: 50px;    	
+	    a{
+	    	margin-right: 20px;
+	    	font-size: 17px;
+	    	color: $navCFont;
+	    }	
+    }
+    .icons{
+    	margin-right: 50px;
+    	a{
+    		margin-left: 15px;
+    		i{
+    			font-size: 25px;
+    			color: $navCFont;
+    		}	
+    	}
+    }    
+}	
