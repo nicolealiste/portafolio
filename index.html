@@ -3,46 +3,516 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Nicole Aliste</title>
-	<link rel="shortcut icon" href="assets/img/oie_transparent.png">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">	
-	<link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
-	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Fontawesome -->
-    <script src="https://use.fontawesome.com/4154d90246.js"></script>
-    <link rel="stylesheet" type="" href="dist/css/style.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="assets/img/N.png" type="image/x-icon">
+	<meta name="author" content="Nicole Aliste Castillo">
+<!--Bootstrap Css-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--Plugins-->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">	
+	<link href="dist/css/simpletextrotator.css" rel="stylesheet">
+	<link href="dist/css/owl.carousel.css" rel="stylesheet">		
+	<link href="dist/css/margins.css" rel="stylesheet">
+	<link href="dist/css/animate.css" rel="stylesheet">
+	<link href="dist/css/style.min.css" rel="stylesheet">
+	<link href="dist/css/responsive.css" rel="stylesheet">
+	
 </head>
 <body>
-<!--Nav-bar-->
-	<div class="navbar-fixed">
-	    <nav>
-	      	<div class="nav-wrapper">
-		        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons grey-text">menu</i></a>
-		        <ul class="nav left hide-on-med-and-down">
-		        	<li><a href="index.html">HOME</a></li>
-		          	<li><a href="#">ABOUT ME</a></li>
-		          	<li><a href="#">SKILLS</a></li>
-		          	<li><a href="#">WORKS</a></li>
-		          	<li><a href="#">CONTACT</a></li>
-		        </ul>
-		        <ul class="icons right hide-on-med-and-down">		        	 
-		        	<li><a href="https://"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+
+	<!-- BORDERS -->
+    <span class="border-line top-frame visible-lg"></span>
+    <span class="border-line right-frame visible-lg"></span>
+    <span class="border-line bottom-frame visible-lg"></span>
+    <span class="border-line left-frame visible-lg"></span>
+
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+        <!-- NAVIGATION -->
+        <nav class="border-navbar navbar-custom navbar-transparent navbar-fixed-top">
+            <div class="container">
+            
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            
+                    <!-- YOU LOGO HERE -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- IMAGE OR SIMPLE TEXT -->
+                        <img class="dark-logo" src="assets/img/oie_transparent.png" width="70" alt="">
+                        <img class="light-logo" src="assets/img/oie_transparent.png" width="70" alt="">
+                    </a>
+                </div>
+            
+                <div class="collapse navbar-collapse" id="custom-collapse">
+            
+                    <ul class="nav navbar-nav navbar right" id="nav-fix">
+            
+                        <li><a href="#hero" class="section-scroll">Home</a></li>
+                        <li><a href="#about" class="section-scroll">About Me</a></li>
+                        <li><a href="#services" class="section-scroll">Skills</a></li>              
+                        <li><a href="#portfolio" class="section-scroll">Portfolio</a></li>       
+                        <li><a href="#contact" class="section-scroll">Contact</a></li>  
+            
+                    </ul>
+                </div>
+            
+            </div>
+        </nav>
+        <!-- /NAVIGATION -->
+
+		<!-- HERO -->
+		<section id="hero" class="brick-hero full-height bg-film" data-background="assets/img/creativity.jpg">
+
+			<!-- HERO TEXT -->
+			<div class="hero-caption">
+				<div class="hero-text">
+					<h2 class="hero-rotator mb-20"><span class="rotate">Functional | Clean & Creative | Simple</span></h2>
+					<h1 class="lop-size-lg">Coder</h1>
+					<p class="hero-subtitle mt-20">Digital Animator& Front End Developer<br>Improving the user experience in the digital environment</p>
+				</div>
+			</div>
+			<!-- /HERO TEXT -->
+
+		</section>
+		<!-- /HERO -->
+
+        <!-- ABOUT SECTION -->
+        <div id="about" class="brick">
+            <div class="container">
+                <!-- brick title -->
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 col-xs-12">
+                        <h2 class="text-center lead">Welcome</h2>
+                        <div class="divider title-divider"></div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2 col-xs-12">
+                        <img class="responsive-img me" src="assets/img/me.jpg">
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <p class="welcome-text mb-50">Hi! My name is Nicole Aliste, I'm digital animator, and today I have become a junior front end developer, with the necessaries skill of improving the user experience in the digital environment. I like to train constantly, to be better day by day, seeking to increase my skills and be able to be a contribution where I work. I intend to aspire to better positions and greater responsibilities, in the medium term. I want to work as a front-end web developer where I could create digital magic and elevate user experience to the next level!!</p>   
+                    </div>                  
+                </div>
+                <!-- end of brick title -->
+            </div>
+        </div >
+        <!-- END OF ABOUT SECTION -->
+
+           <!-- SERVICES SECTION -->
+        <section id="services" class="brick bg-dark">
+            <div class="container">
+                <div class="row align-vertical">  
+
+                    <!-- //////////////////////////////// Skill 1 
+                    //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                               <i class="devicon-html5-plain-wordmark"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title">
+                                    <h3 class="text-white">HTML5</h3>
+                                </div>
+                                <p class="text-dark">Standard markup language for creating web pages and web applications</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->
+                    
+
+                    <!-- //////////////////////////////// Skill 2 
+                    //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                                <i class="devicon-javascript-plain"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title ">
+                                    <h3 class="text-white">JavaScript</h3>
+                                </div>
+                                <p class="text-dark">A high-level, dynamic, weakly typed, object-based, multi-paradigm, and interpreted programming language</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->
+                    
+
+                    <!-- //////////////////////////////// Skill 3
+                     //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                                <i class="devicon-jquery-plain-wordmark"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title">
+                                    <h3 class="text-white">jQuery</h3>
+                                </div>
+                                <p class="text-dark"> Cross-platform JavaScript library designed to simplify the client-side scripting of HTML</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->
+                    
+
+                    <!-- //////////////////////////////// Skill 4
+                     //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                                <i class="devicon-css3-plain-wordmark"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title">
+                                    <h3 class="text-white">CSS3</h3>
+                                </div>
+                                <p class="text-dark">Style sheet language used for describing the presentation of a document written in a markup language</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+
+                    <!-- //////////////////////////////// Skill 5 
+                    //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                                <i class="devicon-nodejs-plain"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title">
+                                    <h3 class="text-white">NodeJs</h3>
+                                </div>
+                                <p class="text-dark">Is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+
+                    <!-- //////////////////////////////// Skill 6 
+                    //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                               <i class="devicon-sass-original"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title">
+                                    <h3 class="text-white">Sass</h3>
+                                </div>
+                                <p class="text-dark">Is a scripting language that is interpreted or compiled into Cascading Style Sheets (CSS)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->
+                    
+
+                    <!-- //////////////////////////////// Skill 7 
+                    //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                                <i class="devicon-github-plain-wordmark"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title">
+                                    <h3 class="text-white">GitHub</h3>
+                                </div>
+                                <p class="text-dark">Version control repository and Internet hosting service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+
+                    <!-- //////////////////////////////// Skill 8 
+                    //////////////////////////////// -->
+                    <div class="col-md-3 col-xs-12 mt30 mb30">
+                        <div class="service-container text-center">
+                            <div class="icon-container parallaxe mb-50 bg-sv">
+                                <i class="devicon-gulp-plain"></i>
+                            </div>
+                            <div class="service-body">
+                                <div class="service-title">
+                                    <h3 class="text-white">Gulp</h3>
+                                </div>
+                                <p class="text-dark">Is a toolkit that helps you automate painful or time-consuming tasks in your development workflow</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////// -->  
+
+                </div>
+            </div>
+        </section>
+        <!-- END OF SERVICES SECTION -->            
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="brick">
+            <div class="container">
+                <!-- brick title -->
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 col-xs-12 mb-80">
+                        <h2 class="brick-title">Portfolio</h2>
+                        <div class="divider title-divider"></div>
+                        <p class="font-droid">For over six months I’ve learned and worked with HTML5, JS, CSS and more. This jobs are the results of this lections.</p>
+                    </div>
+                </div>
+                <!-- end of brick title -->
+
+                <!-- //////////////////////////////// Portafolio 1 
+                    //////////////////////////////// -->	
+                <div class="team-member col-md-4 col-sm-4 text-center">
+                    <div class="member-thumb">
+                        <div class="cover"><div class="cover-inner-middle"></div></div>
+                        <img src="assets/img/p01.png" alt="Team Member" class="img-responsive">
+                        <div class="team_cover"><div class="team_cover_inner"></div></div>
+                            <div class="overlay">
+                                <h6>PINTEREST </h6>
+                                <p>Maked with <b>HTML5</b>, <b>AJAX API</b>, <b>Materialize</b>, <b>Gulp</b> & <b>JS</b>.</p>
+                                <div class="social-links">
+                                    <a href="https://nicolealiste.github.io/pinterest/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                    </div>                        
+                </div>
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+                 <!-- //////////////////////////////// Portafolio 2 
+                    //////////////////////////////// -->	
+                <div class="team-member col-md-4 col-sm-4 text-center">
+                    <div class="member-thumb">
+                        <div class="cover"><div class="cover-inner-middle"></div></div>
+                        <img src="assets/img/p02.png" alt="Team Member" class="img-responsive">
+                        <div class="team_cover"><div class="team_cover_inner"></div></div>
+                            <div class="overlay">
+                                <h6>DRIBBBLE LAB </h6>
+                                <p>Maked with <b>HTML5</b>, <b>AJAX API</b> & <b>JS</b>.</p>
+                                <div class="social-links">
+                                    <a href="https://nicolealiste.github.io/dribbble-lab/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                    </div>                        
+                </div>
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+                <!-- //////////////////////////////// Portafolio 3 
+                    //////////////////////////////// -->	
+                <div class="team-member col-md-4 col-sm-4 text-center">
+                    <div class="member-thumb">
+                        <div class="cover"><div class="cover-inner-middle"></div></div>
+                        <img src="assets/img/p03.png" alt="Team Member" class="img-responsive">
+                        <div class="team_cover"><div class="team_cover_inner"></div></div>
+                            <div class="overlay">
+                                <h6>LABCAR </h6>
+                                <p>Maked with <b>HTML5</b>, <b>JS</b> & <b>Bootstrap</b>.</p>
+                                <div class="social-links">
+                                    <a href="https://nicolealiste.github.io/Labcar/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                    </div>                        
+                </div>
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+			
+                <!-- //////////////////////////////// Portafolio 4 
+                    //////////////////////////////// -->	
+                <div class="team-member col-md-4 col-sm-4 text-center">
+                    <div class="member-thumb">
+                        <div class="cover"><div class="cover-inner-middle"></div></div>
+                        <img src="assets/img/p04.png" alt="Team Member" class="img-responsive">
+                        <div class="team_cover"><div class="team_cover_inner"></div></div>
+                            <div class="overlay">
+                                <h6>PRATT SASS </h6>
+                                <p>Maked with <b>HTML5</b> & <b>CSS Sass</b>.</p>
+                                <div class="social-links">
+                                    <a href=" https://nicolealiste.github.io/pratt_sass/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                    </div>                        
+                </div>
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+                <!-- //////////////////////////////// Portafolio 5 
+                    //////////////////////////////// -->	
+                <div class="team-member col-md-4 col-sm-4 text-center">
+                    <div class="member-thumb">
+                        <div class="cover"><div class="cover-inner-middle"></div></div>
+                        <img src="assets/img/p05.png" alt="Team Member" class="img-responsive">
+                        <div class="team_cover"><div class="team_cover_inner"></div></div>
+                            <div class="overlay">
+                                <h6>SAVE THE KOALA </h6>
+                                <p>Maked with <b>HTML5</b> & <b>Bootstrap</b>.</p>
+                                <div class="social-links">
+                                    <a href=" https://nicolealiste.github.io/save-the-koala/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                    </div>                        
+                </div>
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+
+                <!-- //////////////////////////////// Portafolio 6 
+                    //////////////////////////////// -->	
+                <div class="team-member col-md-4 col-sm-4 text-center">
+                    <div class="member-thumb">
+                        <div class="cover"><div class="cover-inner-middle"></div></div>
+                        <img src="assets/img/p06.png" alt="Team Member" class="img-responsive">
+                        <div class="team_cover"><div class="team_cover_inner"></div></div>
+                            <div class="overlay">
+                                <h6>APP LOVE FLEX </h6>
+                                <p>Maked with <b>HTML5</b> & <b>Flexbox</b>.</p>
+                                <div class="social-links">
+                                    <a href="https://nicolealiste.github.io/app-love-flex/"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                    </div>                        
+                </div>
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+            </div>  
+        </section>
+        <!-- END OF PORTFOLIO SECTION -->
+
+        <!-- TESTIMONIALS -->
+        <div class="brick brick-md brick-parallax bg-film" data-background="assets/img/no.jpg">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-8 col-sm-offset-2">
+
+                        <!-- TESTIMONIALS CAROUSEL -->
+                        <div class="owl-carousel slider-testimonials text-center">
+
+                            <!-- SLIDE 1 -->
+                            <div class="item">
+                                <div class="brick-icon mb-20">
+                                    <span class="icon-quote"></span>
+                                </div>
+                                <div class="client-txt mb-20">
+                                    “Website without visitors is like a ship lost in the horizon.”
+                                </div>
+                                <div class="quote-author">Dr. Christopher Dayagdag / CEO of Marketlink Web Solutions Inc.</div>
+                            </div>
+                            <!-- /SLIDE 1 -->
+
+                            <!-- SLIDE 2 -->
+                            <div class="item">
+                                <div class="brick-icon mb-20">
+                                    <span class="icon-quote"></span>
+                                </div>
+                                <div class="client-txt mb-20">
+                                    “I strive for two things in design: simplicity and clarity. Great design is born of those two things.” 
+                                </div>
+                                <div class="quote-author">Lindon Leader / Graphic designer.</div>
+                            </div>
+                            <!-- /SLIDE 2 -->
+
+                            <!-- SLIDE 3 -->
+                            <div class="item">
+                                <div class="brick-icon mb-20">
+                                    <span class="icon-quote"></span>
+                                </div>
+                                <div class="client-txt mb-20">
+                                    “A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.” 
+                                </div>
+                                <div class="quote-author">Antoine de Saint-Exupéry / Writer.</div>
+                            </div>
+                            <!-- /SLIDE 3 -->
+
+                        </div>
+                        <!-- /TESTIMONIALS CAROUSEL -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /TESTIMONIALS -->        
+        <!-- CONTACT -->
+        <section id="contact" class="brick bg-light">
+
+            <div class="container">
+
+                <!-- brick title -->
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 col-xs-12">
+                        <h2 class="brick-title">Contact me</h2>
+                        <div class="divider title-divider"></div>
+                        <p class="font-droid">Whether you're looking for answers or would like to solve a problem, you'll find many ways to contact us right here</p>
+                    </div>
+                </div>
+                <!-- /brick title -->
+
+                <div class="row mt-50 pb-30">
+                    <div class="col-sm-6 col-lg-4 pt-20 pb-10">
+                        <div class="contact-ico"><div class="lop-icon"><i class="fa fa-phone" aria-hidden="true"></i></div><div class="ci-title">Call Us</div><div class="ci-text">
+                            +56964687343
+                        </div></div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 pt-20 pb-10">
+                        <div class="contact-ico"><div class="lop-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div><div class="ci-title">Ubication</div><div class="ci-text">
+                            Providencia, Santiago, CL
+                        </div></div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 pt-20 pb-10 pb-xs-0">
+                        <div class="contact-ico"><div class="lop-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div><div class="ci-title">Email</div><div class="ci-text">
+                            <a href="mailto:nicole.alistecastillo@gmail.com">nicole.alistecastillo@gmail.com</a>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /CONTACT -->       
+        
+        <!-- FOOTER SECTION-->
+        <footer class="footer bg-light">
+              
+            <div class="container">
+
+                <ul class="social-buttons">
+                    <li><a href="https://www.linkedin.com/in/nicole-aliste-castillo-1b300695/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 		        	<li><a href="https://github.com/nicolealiste"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-		        	<li><a href="https://"><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>		        	       	
-		        </ul>
-		        <ul class="side-nav" id="mobile-demo">
-		          	<li><a href="index.html">HOME</a></li>
-		          	<li><a href="#">ABOUT ME</a></li>
-		          	<li><a href="#">SKILLS</a></li>
-		          	<li><a href="#">WORKS</a></li>
-		          	<li><a href="#">CONTACT</a></li>
-		        </ul>
-	      	</div>
-	    </nav>
-  	</div>		
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="dist/js/script.js"></script>
-</body>    
+                </ul>
+
+                <div class="copyright pull-center">
+                    Copyright &copy; <script>document.write(new Date().getFullYear())</script> N.A All Rights Reserved.
+                </div>
+
+            </div>
+
+        </footer>
+        <!-- /FOOTER SECTION -->
+    </div>
+    <!-- /WRAPPER -->
+
+	<!-- Javascript files -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<!-- Bootstrap Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>	
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/packery-mode.pkgd.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/jquery.easing.1.3.js"></script>
+	<script src="assets/js/jqBootstrapValidation.js"></script>
+	<script src="assets/js/jquery.fitvids.js"></script>	
+	<script src="assets/js/custom.js"></script>	
+	<script src="assets/js/modernizr.js"></script>      
+    <script src="assets/js/jquery.superslides.min.js"></script>	
+</body>
 </html>
