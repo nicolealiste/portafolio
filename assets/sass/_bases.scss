@@ -386,6 +386,9 @@ table {
 /* ==============================
    Navigation
    ============================== */
+.in{
+    float: left !important;
+}   
 
 .navbar-custom {
     background: #f8f8f8;
